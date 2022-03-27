@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-25T10:47:00 IST" name="SampleAutomationFrameWork" finished-at="2022-03-25T10:47:17 IST" duration-ms="17089">
+    <groups>
+    </groups>
+    <test started-at="2022-03-25T10:47:00 IST" name="Test Basics 1" finished-at="2022-03-25T10:47:17 IST" duration-ms="17089">
+      <class name="MavenProject.TestCaseExecution.TestNg">
+        <test-method signature="testCaseName()[pri:0, instance:MavenProject.TestCaseExecution.TestNg@729d991e]" started-at="2022-03-25T10:47:00 IST" name="testCaseName" finished-at="2022-03-25T10:47:17 IST" duration-ms="16955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseName -->
+      </class> <!-- MavenProject.TestCaseExecution.TestNg -->
+    </test> <!-- Test Basics 1 -->
+  </suite> <!-- SampleAutomationFrameWork -->
+</testng-results>
