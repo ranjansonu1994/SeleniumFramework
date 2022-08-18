@@ -1,0 +1,22 @@
+1. What are thing used in this Framework?
+ --> Both UI and API are implemented on same framework
+ --> Maven is used for Project management. It help in getting the libraries
+     required for the project using the dependencies
+ --> TestNg is used for the test case management.
+ --> Extent Report is used for the reporting purpose
+ --> Java is used for coding.
+ 
+ 2. Structure of the framework?
+ --> TestCaseExecution Package where we are writing the testng code(in .java file) which
+     help in test case management using @Test , @BeforeTest ,@BeforMathod etc annotation.
+ --> Business component package stores the java file which contains the common navigation
+     code used in different test cases.
+ --> APIReusable Package stores the reusable code used in Api testcases.
+ --> DataProvider Package stores the Enumeration etc java file used as data provider.
+ --> Page Package is used for Page Object Model for UI.
+ --> UtilityFunction package contains the code of Excel ,csv ,json etc reusable code.
+ --> WebDriverSetup package is used for intil settups for webdriver of UI and passed driver w
+     where ever required in other package.
+ --> Reports folder contains the report of particular execution
+ --> TestNg.XML file is the runner file on local.
+ 

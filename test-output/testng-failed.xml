@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [SampleAutomationFrameWork]" guice-stage="DEVELOPMENT">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SampleAutomationFrameWork]">
   <test thread-count="5" name="Test Basics 1(failed)">
     <classes>
-      <class name="MavenProject.TestCaseExecution.TestNg">
+      <class name="MavenProject.TestCaseExecution.TestNgUI">
         <methods>
+          <include name="beforeTestCaseSetup"/>
           <include name="testCaseName"/>
+          <include name="AfterTestCasesWrapup"/>
+          <include name="beforeTestCasesSetup"/>
+          <include name="AfterTestCaseWrapup"/>
         </methods>
-      </class> <!-- MavenProject.TestCaseExecution.TestNg -->
+      </class> <!-- MavenProject.TestCaseExecution.TestNgUI -->
     </classes>
   </test> <!-- Test Basics 1(failed) -->
 </suite> <!-- Failed suite [SampleAutomationFrameWork] -->
